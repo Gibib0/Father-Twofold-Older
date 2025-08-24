@@ -5,19 +5,16 @@
 // father - 2 * son = x
 
 function calculateAge(fatherAge, sonAge) {
+	let result = null
+
 	if(fatherAge < 0 || sonAge < 0) {
 		console.log('The age cannot be negative');
-		return null
-	}
-
-	if(fatherAge - sonAge >= 15) {
-		let result = fatherAge - 2 * sonAge
-
-		return result
-
-	} else {
+	} else if (fatherAge - sonAge < 15) {
 		console.log('The age difference cannot be less than 15');
-		return null
+	} else {
+		result = fatherAge - 2 * sonAge
 	}
 	
+	return result
 }
+
