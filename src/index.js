@@ -18,4 +18,6 @@ function calculateYears(fatherAge, sonAge) {
 	return result
 }
 
-console.log(calculateYears);
+console.log(calculateYears(-20, 5));
+console.log(calculateYears(20, 6));
+console.log(calculateYears(30, 5));
