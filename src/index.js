@@ -4,7 +4,7 @@
  * 
  * @param {number} fatherAge 
  * @param {number} sonAge 
- * @returns {number or null} - the number of years agter which father`s age will be twice that of the son
+ * @returns {number or null} - the number of years after which father`s age will be twice that of the son
  */
 function calculateYears(fatherAge, sonAge) {
 	let result = null
