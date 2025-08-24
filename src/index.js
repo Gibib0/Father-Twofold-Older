@@ -4,7 +4,7 @@
 // father - 2 * son = 2 * x - x
 // father - 2 * son = x
 
-function calculateAge(fatherAge, sonAge) {
+function calculateYears(fatherAge, sonAge) {
 	let result = null
 
 	if(fatherAge < 0 || sonAge < 0) {
@@ -18,3 +18,4 @@ function calculateAge(fatherAge, sonAge) {
 	return result
 }
 
+console.log(calculateYears);
