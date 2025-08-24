@@ -1,9 +1,5 @@
 'use strict'
 
-// father + x = 2 * (son + x)
-// father - 2 * son = 2 * x - x
-// father - 2 * son = x
-
 function calculateYears(fatherAge, sonAge) {
 	let result = null
 
